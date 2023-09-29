@@ -1,7 +1,19 @@
-def main():
-    from . import __version__
+#!/usr/bin/env python3
+# flake8: noqa
+import os
 
-    print("This is sample aCLI app " + __version__)
+from flex_framework.application import ApplicationBootstrap
+
+from .etc.config import extend_env_variables, params
+from .shell_proxy import DockerCompose
+
+
+def main():
+    bootstrap = ApplicationBootstrap.create(
+        os.path.basename(__file__), extend_env_variables(params)
+    )
+    application = bootstrap.create_application(DockerCompose)
+    bootstrap.run(application)
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ CURRENT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.join(CURRENT_DIRECTORY, 'src')
 sys.path.insert(0, BASE_PATH)
 
-from src.axel.__main__ import main
+from flex_docker_compose.__main__ import main
 
 if __name__ == '__main__':
     main()
