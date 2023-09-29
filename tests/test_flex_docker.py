@@ -1,4 +1,4 @@
-from axel import __version__
+from flex_docker_compose import __version__
 
 
 def test_version():

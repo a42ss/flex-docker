@@ -83,13 +83,13 @@ uninstall: $(VENV)
 build: $(VENV) $(POETRY) install
 	@echo POETRY: Build $(VERSION)
 	$(POETRY) version $(VERSION)
-	sed -i 's/__version__\(.*\)/__version__: str = "$(VERSION)"/' src/lcli/__init__.py
+	sed -i 's/__version__\(.*\)/__version__: str = "$(VERSION)"/' src/flex_docker/__init__.py
 	$(POETRY) build
 
 .PHONY: create_version
 create_version: $(VENV) $(POETRY) install test lint build
 	@echo POETRY: Create version $(VERSION)
-	git add src/lcli/__init__.py pyproject.toml poetry.lock
+	git add src/flex_docker/__init__.py pyproject.toml poetry.lock
 	git commit -m "Bumping version to $(VERSION)" && true
 	git push origin
 	git tag $(VERSION)
