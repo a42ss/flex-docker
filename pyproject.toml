@@ -90,7 +90,7 @@ relative_files = true
 
 [tool.poetry.scripts]
 flex-docker = 'lcli.__main__:main'
-flex-docker-compose = 'lcli.__main__:main'
+flex-docker-compose = 'flex_docker_compose.__main__:main'
 
 [tool.poetry.plugins]
 
