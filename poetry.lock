@@ -682,13 +682,13 @@ pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
 name = "flex-cli"
-version = "0.2.7"
+version = "0.2.8"
 description = "Local CLI is an extendable interactive command line tool built in mind with the objective to make the interaction with day to day scripts more user friendly. The scripts you use daily should be easy to maintain, develop and document so you don't need to worry to write long documents on how to use them."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "flex_cli-0.2.7-py3-none-any.whl", hash = "sha256:6b8855291f36709f3c6ff643c1a85d0e0d118b96abf3473e78bbf96f63eaec92"},
-    {file = "flex_cli-0.2.7.tar.gz", hash = "sha256:884c2a3082fba3fea20a919484e2ea2a35e97c58f6e90e52bba47abfebfe0749"},
+    {file = "flex_cli-0.2.8-py3-none-any.whl", hash = "sha256:680025e3e28a19bc56c86563eb495b2b3af0bc4f15deb437a075e2da63f2e713"},
+    {file = "flex_cli-0.2.8.tar.gz", hash = "sha256:49054d492e7ce4686344cc2cb9587b9ac1781f30e63d98db47bcf04103521c03"},
 ]
 
 [package.dependencies]
@@ -698,6 +698,7 @@ jsonschema = ">=4.5,<5.0"
 pinject = ">=0.14,<0.15"
 prompt-toolkit = ">=3.0,<4.0"
 pyfiglet = ">=0.8,<0.9"
+python-dotenv = ">=1.0,<2.0"
 PyYAML = ">=6.0,<7.0"
 types-PyYAML = "*"
 
@@ -1634,6 +1635,20 @@ pytest = ">=4.6"
 
 [package.extras]
 testing = ["fields", "hunter", "process-tests", "pytest-xdist", "six", "virtualenv"]
+
+[[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "python-dotenv-1.0.0.tar.gz", hash = "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba"},
+    {file = "python_dotenv-1.0.0-py3-none-any.whl", hash = "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"},
+]
+
+[package.extras]
+cli = ["click (>=5.0)"]
 
 [[package]]
 name = "pytz"
