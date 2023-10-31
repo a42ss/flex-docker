@@ -701,13 +701,13 @@ pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
 name = "flex-cli"
-version = "0.2.9"
+version = "0.3.0"
 description = "Local CLI is an extendable interactive command line tool built in mind with the objective to make the interaction with day to day scripts more user friendly. The scripts you use daily should be easy to maintain, develop and document so you don't need to worry to write long documents on how to use them."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "flex_cli-0.2.9-py3-none-any.whl", hash = "sha256:865679093a74cf3d7fe2bb862cc8619767efca07f34f654f08f0ae15be5c79bd"},
-    {file = "flex_cli-0.2.9.tar.gz", hash = "sha256:9f32a55a3e72d5037155900265611bc8b5480469eb2ab7f6625017c7a51993a9"},
+    {file = "flex_cli-0.3.0-py3-none-any.whl", hash = "sha256:d53994baae33a113e554ecc7eaface3e15d1e9047b58155beeb6d1e5fffd35ea"},
+    {file = "flex_cli-0.3.0.tar.gz", hash = "sha256:980b94ac1332f855835d450bbe378cf9626cf45642a6c8567b323438d3c38e29"},
 ]
 
 [package.dependencies]
@@ -2505,4 +2505,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8, <4.0"
-content-hash = "e24c009fbb96ccacfb18b8e7c56b20bd9af0883ca59172de6e9427ff64b973f6"
+content-hash = "edb056907e28c51fb337fb2fe5075534b875a6f87816c5b7cbad5df055d3f1ea"
