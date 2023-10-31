@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flex-docker"
-version = "0.1.8"
+version = "0.2.0"
 description = "Flex docker is a utility wrapper around docker and docker-compose commands providing defaults values for projects"
 
 license = "MIT"
