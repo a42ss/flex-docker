@@ -701,13 +701,13 @@ pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
 name = "flex-cli"
-version = "0.3.0"
+version = "0.3.1"
 description = "Local CLI is an extendable interactive command line tool built in mind with the objective to make the interaction with day to day scripts more user friendly. The scripts you use daily should be easy to maintain, develop and document so you don't need to worry to write long documents on how to use them."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "flex_cli-0.3.0-py3-none-any.whl", hash = "sha256:d53994baae33a113e554ecc7eaface3e15d1e9047b58155beeb6d1e5fffd35ea"},
-    {file = "flex_cli-0.3.0.tar.gz", hash = "sha256:980b94ac1332f855835d450bbe378cf9626cf45642a6c8567b323438d3c38e29"},
+    {file = "flex_cli-0.3.1-py3-none-any.whl", hash = "sha256:de444568d20222f766129b08bc4f281b5f5e7a0c7d4999f6c6f351d4a9654b9c"},
+    {file = "flex_cli-0.3.1.tar.gz", hash = "sha256:6667c263c1f35183f60a1176c961a5734fe57a91a7beabf7003060fa645bc5fe"},
 ]
 
 [package.dependencies]
