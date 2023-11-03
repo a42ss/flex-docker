@@ -701,13 +701,13 @@ pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
 name = "flex-cli"
-version = "0.3.0"
+version = "0.3.4"
 description = "Local CLI is an extendable interactive command line tool built in mind with the objective to make the interaction with day to day scripts more user friendly. The scripts you use daily should be easy to maintain, develop and document so you don't need to worry to write long documents on how to use them."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "flex_cli-0.3.0-py3-none-any.whl", hash = "sha256:d53994baae33a113e554ecc7eaface3e15d1e9047b58155beeb6d1e5fffd35ea"},
-    {file = "flex_cli-0.3.0.tar.gz", hash = "sha256:980b94ac1332f855835d450bbe378cf9626cf45642a6c8567b323438d3c38e29"},
+    {file = "flex_cli-0.3.4-py3-none-any.whl", hash = "sha256:1258586cd4dd993870847e753a0ad5ad772e465b7fe43b3c58012f4a87b482e9"},
+    {file = "flex_cli-0.3.4.tar.gz", hash = "sha256:4329f4e9fa85b246cf6bdcba3ec74307ebc415c9cff239c5d3f038f5666c3d18"},
 ]
 
 [package.dependencies]
@@ -719,6 +719,7 @@ prompt-toolkit = ">=3.0,<4.0"
 pyfiglet = ">=0.8,<0.9"
 python-dotenv = ">=1.0,<2.0"
 PyYAML = ">=6.0,<7.0"
+setuptools = ">=68.2,<69.0"
 types-PyYAML = "*"
 
 [package.extras]
