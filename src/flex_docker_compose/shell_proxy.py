@@ -7,7 +7,7 @@ from flex_framework.shell.proxy import SimpleShellProxy
 
 class DockerCompose(SimpleShellProxy, ApplicationInterface[CliResponse]):
     def launch(self) -> T:
-        return CliResponse(self.execute("docker-compose"))
+        return CliResponse(self.execute("docker compose"))
 
     def get_global_command_arguments(self) -> list:
         docker_compose_files = self.env.get("DOCKER_COMPOSE_FILES")
